@@ -1,16 +1,15 @@
 /* FLEX */
-.d-flex {
-    display: flex;
-}
+.d-flex { display: flex; }
+.justify-around { justify-content: space-around; }
+.justify-center { justify-content: center;}
+.align-center { align-items: center; }
 
-.justify-around {
-    justify-content: space-around;
-}
 
 /* POSITION */
-.p-fixed {
-    position: fixed;
-}
+.p-fixed { position: fixed; }
+.p-relative { position: relative; }
+.p-absolute { position: absolute; }
+
 
 /* WIDTH */
 .w-20 { width: 20%; }

@@ -11,8 +11,87 @@ body {
 header {
     color: white;
     text-align: center;
-    z-index: 999
-    
+    z-index: 999;
+    top: 0;
+}
+
+.container{  
+    flex-wrap: wrap;
+    margin: 32px auto;
+}
+
+.card{
+    z-index: 1;
+    width: fit-content;
+}
+
+.article {
+    margin: 100px 0 25px 0;
+    height: 500px;
+    align-content: center;
+}
+
+.card-photo:hover .card-hover{
+    z-index: 2;
+}
+
+.card-photo > span{
+    z-index: 5;
+}
+
+.sale{
+    top: 450px;
+    background-color: red;
+    border-color: red;
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.eco{
+    top: 450px;
+    left: 40px;
+    background-color: green;
+    border-color: green;
+    color: white;
+    font-weight: 500;
+    font-size: 12px;
+
+}
+
+.favorite{
+    top: 20px;
+    left: 320px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 30px;
+    background-color: white;
+}
+
+.favorite:hover{
+    color: red;
+}
+
+.brand{
+    top: 510px;
+    font-size: 12px;
+}
+
+.article-name{
+    top: 520px;
+}
+
+.price{
+    top: 540px;
+    font-size: 12px;
+    font-weight: 400;
+    color: red;
+}
+
+.price-style {
+    color: black;
+    text-decoration: line-through;
 }
 
 
