@@ -26,6 +26,7 @@
 .w-80 { width: 80%; }
 .w-100 { width: 100%; }
 
+
 /*** PADDING ***/
 .p-4 { padding: 4px; }
 .pt-4 { padding-top: 4px; }
@@ -67,6 +68,7 @@
 .py-64 { padding: 64px 0; }
 .px-64 { padding: 0 64px; }
 
+
 /*** MARGIN ***/
 .m-8 { margin: 8px; }
 .mt-8 { margin-top: 8px; }
@@ -99,9 +101,6 @@
 .ml-64 { margin-left: 64px; }
 .my-64 { margin: 64px 0; }
 .mx-64 { margin: 0 64px; }
-
-
-
 
 
 /* COLOR */
