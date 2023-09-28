@@ -1,5 +1,6 @@
 /* FLEX */
 .d-flex { display: flex; }
+.d-inline { display: inline; }
 .justify-around { justify-content: space-around; }
 .justify-center { justify-content: center;}
 .align-center { align-items: center; }
@@ -96,9 +97,8 @@
 
 
 /* COLOR */
-.bg-orange {
-    background-color: #FF6900;
-}
+.bg-orange { background-color: #FF6900; }
+.bg-black { background-color: black; }
 
 
 
