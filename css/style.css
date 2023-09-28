@@ -35,6 +35,10 @@ header {
     z-index: 2;
 }
 
+.card-photo > span{
+    z-index: 5;
+}
+
 .sale{
     top: 415px;
     background-color: red;
